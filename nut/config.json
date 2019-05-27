@@ -11,7 +11,7 @@
         "armv7",
         "i386"
     ],
-  "startup": "application",
+  "startup": "system",
   "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
   "ports": {
     "3493/tcp": 3493
