@@ -3,12 +3,14 @@
   "version": "0.1",
   "slug": "nut",
   "description": "Manage Uninterruptible Power Supplies",
-  "startup": "before",
+  "url": "https://github.com/kvvoff/hassio-addons-1",
+  "startup": "application",
   "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
   "ports": {
     "3493/tcp": 3493
   },
   "boot": "auto",
+  "hassio_api": true,
   "options": {
     "logins": [
       { "username": "nut", "password": "nut", "instcmds": "all" }
