@@ -1,5 +1,5 @@
 {
-  "name": "Network UPS Tools dev",
+  "name": "Network UPS Tools (dev)",
   "version": "dev",
   "slug": "nut",
   "description": "Manage battery backup (UPS) devices",
