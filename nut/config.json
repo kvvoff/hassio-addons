@@ -5,9 +5,12 @@
   "description": "Manage Uninterruptible Power Supplies",
   "url": "https://github.com/kvvoff/hassio-addons-1",
    "arch": [
-    "amd64",
-    "armhf"
-  ],
+        "aarch64",
+        "amd64",
+        "armhf",
+        "armv7",
+        "i386"
+    ],
   "startup": "application",
   "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
   "ports": {
