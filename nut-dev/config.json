@@ -1,0 +1,56 @@
+{
+  "name": "Network UPS Tools",
+  "version": "dev",
+  "slug": "nut",
+  "description": "Manage battery backup (UPS) devices",
+  "url": "https://github.com/hassio-addons/addon-nut",
+  "startup": "system",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7",
+    "i386"
+  ],
+  "boot": "auto",
+  "hassio_api": true,
+  "hassio_role": "default",
+  "homeassistant_api": true,
+  "ports": {
+    "3493/tcp": 3493
+  },
+  "ports_description": {
+    "3493/tcp": "Network UPS Tools"
+  },
+  "devices": [
+    "/dev/bus/usb:/dev/bus/usb:rwm"
+  ],
+  "map": [
+    "config:rw"
+  ],
+  "stdin": true,
+  "options": {
+    "users": [
+      {
+        "username": "",
+        "password": "",
+        "instcmds": ["all"],
+        "actions": []
+      }
+    ]
+  },
+  "schema": {
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "users": [
+      {
+        "username": "str",
+        "password": "str",
+        "instcmds": ["str"],
+        "actions": ["str"],
+        "upsmon": "match(^(master|slave)$)?"
+      }
+    ],
+    "i_like_to_be_pwned": "bool?",
+    "leave_front_door_open": "bool?"
+  }
+}

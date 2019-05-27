@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Community Hass.io Add-ons: Network UPS Tools
+# Run upsd
+# ==============================================================================
+bashio::log.info "Starting the UPS information server..."
+exec upsd -D
