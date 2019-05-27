@@ -11,24 +11,21 @@
         "armv7",
         "i386"
     ],
-  "boot": "auto",
   "startup": "system",
-  "hassio_api": true,
-  "hassio_role": "default",
-  "homeassistant_api": true,
+  "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
   "ports": {
     "3493/tcp": 3493
   },
   "ports_description": {
     "3493/tcp": "Network UPS Tools"
   },
-  "devices": [
-    "/dev/bus/usb:/dev/bus/usb:rwm"
-  ],
+  "boot": "auto",
+  "hassio_api": true,
+  "hassio_role": "default",
+  "homeassistant_api": true,
   "map": [
     "config:rw"
   ],
-  "stdin": true,
   "options": {
     "users": [
       {
