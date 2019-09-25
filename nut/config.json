@@ -1,6 +1,6 @@
 {
   "name": "NUT",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "slug": "nut",
   "description": "Manage Uninterruptible Power Supplies",
   "url": "https://github.com/kvvoff/hassio-addons",
