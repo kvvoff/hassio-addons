@@ -1,6 +1,6 @@
 {
-  "name": "Network UPS Tools",
-  "version": "0.1",
+  "name": "NUT",
+  "version": "0.1.1",
   "slug": "nut",
   "description": "Manage Uninterruptible Power Supplies",
   "url": "https://github.com/kvvoff/hassio-addons",
