@@ -1,7 +1,7 @@
 {
   "name": "Network UPS Tools (dev)",
   "version": "dev",
-  "slug": "nut",
+  "slug": "nutdev",
   "description": "Manage battery backup (UPS) devices",
   "url": "https://github.com/kvvoff/hassio-addons",
    "arch": [
