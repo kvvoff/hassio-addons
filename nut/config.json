@@ -1,6 +1,6 @@
 {
   "name": "NUT",
-  "version": "0.1.2.1",
+  "version": "0.1.2",
   "slug": "nut",
   "description": "Manage Uninterruptible Power Supplies",
   "url": "https://github.com/kvvoff/hassio-addons",
@@ -12,7 +12,7 @@
     "armv7",
     "i386"
   ],  
-  "devices": ["/dev/usb:/dev/usb:rwm"],
+  "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
   "ports": {
     "3493/tcp": 3493
   },
