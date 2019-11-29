@@ -12,7 +12,7 @@
     "armv7",
     "i386"
   ],  
-  "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
+  "devices": ["/dev/usb:/dev/usb:rwm"],
   "ports": {
     "3493/tcp": 3493
   },
